@@ -1,0 +1,213 @@
+.Container-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 110px;
+    margin: 0;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.MainOptions {
+    display: flex;
+    list-style: none;
+    color: white;
+    width: 0;
+    margin: 0;
+    padding: 0; 
+    align-items: center;
+}
+.MainOptions p,.options a{
+	font-family: 'Niconne';
+	font-size: 30px;
+}
+
+.Container-main .options {
+    margin-left: auto;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.options a:hover {
+    color: orange;
+}
+.menu-container{
+	display: flex;
+	height: 60px;
+	background-color: orange;
+}
+.dropdown-menu{
+	list-style: none;
+    border: 1px solid orange;
+}
+.dropdown-menu a:hover{
+	color: orange;
+}
+.menu-container a{
+	text-decoration: none;
+	color: black;
+}
+.dropdown-menu-conocer{
+	list-style: none;
+    border: 1px solid orange;
+}
+.dropdown-menu-conocer a:hover{
+	color: orange
+}
+details {
+	display: flex;
+	margin-left: auto;
+    cursor: pointer;
+}
+summary {
+    color: black;
+    padding: 20px 10px;
+    outline: none;
+}
+.conocenos {
+	margin-left: auto;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	color: white;
+}
+.conocenos a{
+	color: black;
+	text-align: center;
+}
+.input-search{
+	padding: 3px 8px;
+}
+.input-search input{
+	margin-left: auto;
+	border: 1px solid black;
+	height: 5px;
+	align-items: center;
+}
+.input-search button{
+	margin-left: auto;
+	border: 1px solid black;
+	height: 20px;
+	align-items: center;
+}
+.Recetas-Destacadas{
+	height: 450px;
+	border: 2px solid black;
+	margin-top: 5px;
+}
+.Scroll-container{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto; 
+}
+.scroll{
+	flex: 0 0 auto;
+	border:1px solid black;
+	margin: 10px;
+	height: 430px;
+	width: 300px;
+	text-align: center;
+}
+.textoRecientes{
+	background-color: lightgray;
+}
+.textoRecientes p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.Estrellas img:hover{
+	content: url('./estrella-color.png');
+}	
+.Dato-Recetas h4{
+	text-align: center;
+	font-family: 'Niconne';
+	font-size: 35px;
+}
+.Dato-Recetas p{
+	margin-left: 50px;
+	margin-right: 50px;	
+	font-size: 20px;
+}
+.ventanaSoporte {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ventanaSoporte h1 {
+    text-align: center;
+}
+.ventanaSoporte form {
+    margin-top: 20px;
+}
+
+.ventanaSoporte label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+.ventanaSoporte textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.ventanaSoporte input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ventanaSoporte input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.Soporte{
+	display: flex;
+	padding: 30px
+}
+.Direccion{
+	margin-left: 18px;
+}
+.cierre{
+	height: 110px;
+	background-color: black;
+}
+.cierre-socials{
+	display: flex;
+}
+.cierre-socials p{
+	margin-left: 20px;
+	margin-top: 20px;
+	color: white;
+	font-family: 'Niconne';
+	font-size: 25px;
+}	
+.cierre-socials img{
+	margin-left: auto;
+	margin-right: 20px;
+}
+.copyright{
+	margin-left: 20px;
+	color: white;
+	font-size: 15px;
+}
